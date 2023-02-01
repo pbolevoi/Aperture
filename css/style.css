@@ -266,4 +266,5 @@ header nav li:last-of-type a{
 
 .section_demo{
     background-color: aqua;
+    background-size: auto;
 }
