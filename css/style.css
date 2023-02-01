@@ -268,3 +268,6 @@ header nav li:last-of-type a{
     background-color: aqua;
     background-size: auto;
 }
+.demo{
+    padding: 5px 10px;
+}
