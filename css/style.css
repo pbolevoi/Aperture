@@ -107,6 +107,80 @@ header nav li:last-of-type a{
     text-align: center;
     color: #C0C0C0;
 }
+.what_we_do{
+    padding-top: 112px;
+    padding-bottom: 100px;
+    background-color: #000000;
+}
+.what_we_do .cont_what{
+    max-width: 1168px;
+    margin: auto;
+}
+.what_we_do h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.what_we_do h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 42px;
+}
+.d_flex_cont{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.what_we_do .d_flex_cont article{
+    max-width: 576px;
+    position: relative;
+}
+.what_we_do .d_flex_cont article img{
+    display: block;
+    width: 100%;
+}
+.what_we_do .d_flex_cont article .description{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 30px 45px 30px 30px;
+    box-sizing: border-box;
+
+}
+.what_we_do .description h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.what_we_do .description p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
 .main_monstera{
     background-image: url("../images/monstera.jpg");
     background-size: cover;
@@ -139,7 +213,6 @@ header nav li:last-of-type a{
     line-height: 20px;
     color: #C0C0C0;
 }
-
 .sec_clients{
     background-color: #000000;
     padding-top: 113px;
