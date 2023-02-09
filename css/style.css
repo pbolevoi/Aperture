@@ -107,6 +107,7 @@ header nav li:last-of-type a{
     text-align: center;
     color: #C0C0C0;
 }
+/* What_we_do */
 .what_we_do{
     padding-top: 112px;
     padding-bottom: 100px;
@@ -146,6 +147,9 @@ header nav li:last-of-type a{
     max-width: 576px;
     position: relative;
 }
+.what_we_do .d_flex_cont article:first-child{
+    margin-bottom: 16px;
+}
 .what_we_do .d_flex_cont article img{
     display: block;
     width: 100%;
@@ -179,8 +183,7 @@ header nav li:last-of-type a{
     text-align: left;
     margin-bottom: 20px;
 }
-
-
+/* main_monstera */
 .main_monstera{
     background-image: url("../images/monstera.jpg");
     background-size: cover;
