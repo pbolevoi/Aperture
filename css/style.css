@@ -110,7 +110,7 @@ header nav li:last-of-type a{
 /* What_we_do */
 .what_we_do{
     padding-top: 112px;
-    padding-bottom: 100px;
+    padding-bottom: 84px;
     background-color: #000000;
 }
 .what_we_do .cont_what{
@@ -146,8 +146,6 @@ header nav li:last-of-type a{
 .what_we_do .d_flex_cont article{
     max-width: 576px;
     position: relative;
-}
-.what_we_do .d_flex_cont article:first-child{
     margin-bottom: 16px;
 }
 .what_we_do .d_flex_cont article img{
@@ -160,7 +158,6 @@ header nav li:last-of-type a{
     bottom: 0;
     padding: 30px 45px 30px 30px;
     box-sizing: border-box;
-
 }
 .what_we_do .description h5{
     font-family: 'Poppins';
@@ -182,6 +179,9 @@ header nav li:last-of-type a{
     color: #C0C0C0;
     text-align: left;
     margin-bottom: 20px;
+}
+.height_ar{
+    max-height: 600px;
 }
 /* main_monstera */
 .main_monstera{
@@ -338,4 +338,139 @@ header nav li:last-of-type a{
     font-size: 14px;
     line-height: 20px;
     color: #C0C0C0;
+}
+
+/* footer */
+footer{
+    background-color: #000000;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+footer .foot_container{
+    margin: auto;
+    max-width: 1168px;
+}
+footer .foot_container .fcont_first{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 26px;
+}
+footer .foot_container .fcont_first p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #C0C0C0;
+    margin-top: 20px;
+}
+footer .foot_container .fcont_nav{
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 55px;
+    margin-right: 100px;
+}
+footer .fcont_nav ul{
+    list-style: none;
+}
+footer .fcont_nav ul li{
+    margin-bottom: 10px;
+}
+footer .fcont_nav ul li:first-child{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+}
+footer .fcont_nav ul li a{
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+footer .fcont_second{
+    padding: 40px 0;
+    border-top: solid 2px #FFFFFF;
+    border-bottom: solid 2px #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+footer .fcont_second h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+footer .fcont_second p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+footer .fcont_second form{
+    background: #F9FAFB;
+    border-radius: 12px;
+    height: 52px;
+    max-width: 458px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    padding: 0 6px;
+    flex-grow: 1;
+}
+footer .fcont_second form input{
+    border: none;
+    height: 30px;
+    font: 400 16px/20px 'Poppins';
+    outline: none;
+    width: 80%;
+}
+footer .fcont_second form label{
+    display: none;
+}
+footer .fcont_second form button{
+    background-color: #000000;
+    border-radius: 11px;
+    border: none;
+    height: 30px;
+    width: 15%;
+    cursor: pointer;
+}
+footer .fcont_last{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 56px;
+    align-content: center;
+}
+footer .fcont_last p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+footer .fcont_last ul{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+}
+footer .fcont_last ul li{
+    margin-left: 20px;
 }
