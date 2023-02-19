@@ -183,6 +183,39 @@ header nav li:last-of-type a{
 .height_ar{
     max-height: 600px;
 }
+/* main_mount1 */
+.main_mount1{
+    background-image: url("../images/mount1.jpg");
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+.main_mount1 .container{
+    max-width: 298px;
+    margin: inherit;
+    padding-right: 62px;
+}
+.main_mount1 .container h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.main_mount1 .container p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
 /* main_monstera */
 .main_monstera{
     background-image: url("../images/monstera.jpg");
