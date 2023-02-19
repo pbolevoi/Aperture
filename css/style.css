@@ -459,6 +459,7 @@ footer .fcont_second form{
     border-radius: 12px;
     height: 52px;
     max-width: 458px;
+    width: 100%;
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -471,6 +472,7 @@ footer .fcont_second form input{
     height: 30px;
     font: 400 16px/20px 'Poppins';
     outline: none;
+    max-width: 458px;
     width: 80%;
 }
 footer .fcont_second form label{
@@ -481,6 +483,7 @@ footer .fcont_second form button{
     border-radius: 11px;
     border: none;
     height: 30px;
+    max-width: 63px;
     width: 15%;
     cursor: pointer;
 }
